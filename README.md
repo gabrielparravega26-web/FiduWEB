@@ -6,7 +6,7 @@ Documentación técnica y de negocio para la arquitectura, operación y control 
 
 Este repositorio centraliza la documentación funcional, operativa y de arquitectura del sistema FiduWEB. Su objetivo es servir como referencia para análisis, diseño, validación, gobernanza, controles y cumplimiento normativo relacionado con fideicomisos, participantes, cuentas, patrimonio, reportes y procedimientos internos.
 
-La documentación está organizada para facilitar la consulta por módulo, flujo de negocio y requisitos regulatorios.
+La documentación está organizada por módulo para facilitar la consulta, la navegación y la trazabilidad del proyecto.
 
 ## Objetivos
 
@@ -19,54 +19,54 @@ La documentación está organizada para facilitar la consulta por módulo, flujo
 ## Estructura del repositorio
 
 ### Manual base
-- [MANUAL DE ESPECIFICACIÓN NORMATIVA Y ARQUITECTURA TÉCNICO-LEGAL PARA EL MANEJO DE FIDEICOMISOS EN MÉXICO.docx](MANUAL%20DE%20ESPECIFICACI%C3%93N%20NORMATIVA%20Y%20ARQUITECTURA%20T%C3%89CNICO-LEGAL%20PARA%20EL%20MANEJO%20DE%20FIDEICOMISOS%20EN%20M%C3%89XICO.docx)
+- [MANUAL DE ESPECIFICACIÓN NORMATIVA Y ARQUITECTURA TÉCNICO-LEGAL PARA EL MANEJO DE FIDEICOMISOS EN MÉXICO.docx](MANUAL%20DE%20ESPECIFICACIÓN%20NORMATIVA%20Y%20ARQUITECTURA%20TÉCNICO-LEGAL%20PARA%20EL%20MANEJO%20DE%20FIDEICOMISOS%20EN%20MÉXICO.docx)
 
-### Especificaciones de negocio
+### Módulos
 
-#### Arquitectura y fundamentos
-- [Especificaciones de Negocio/00_arquitectura_modulos_sistema.md](Especificaciones%20de%20Negocio/00_arquitectura_modulos_sistema.md)
+#### 00-Arquitectura
+- [00-Arquitectura/00_arquitectura_modulos_sistema.md](00-Arquitectura/00_arquitectura_modulos_sistema.md)
 
-#### Fideicomiso y estructura
-- [Especificaciones de Negocio/01_fideicomiso_estructura_campos_validaciones.md](Especificaciones%20de%20Negocio/01_fideicomiso_estructura_campos_validaciones.md)
-- [Especificaciones de Negocio/01.1_gestion_estatus_contrato.md](Especificaciones%20de%20Negocio/01.1_gestion_estatus_contrato.md)
-- [Especificaciones de Negocio/01.2_catalogos_administrables.md](Especificaciones%20de%20Negocio/01.2_catalogos_administrables.md)
+#### 01-Fideicomiso
+- [01-Fideicomiso/01_fideicomiso_estructura_campos_validaciones.md](01-Fideicomiso/01_fideicomiso_estructura_campos_validaciones.md)
+- [01-Fideicomiso/01.1_gestion_estatus_contrato.md](01-Fideicomiso/01.1_gestion_estatus_contrato.md)
+- [01-Fideicomiso/01.2_catalogos_administrables.md](01-Fideicomiso/01.2_catalogos_administrables.md)
 
-#### Participantes, KYC y control
-- [Especificaciones de Negocio/02_participantes_roles_kyc.md](Especificaciones%20de%20Negocio/02_participantes_roles_kyc.md)
-- [Especificaciones de Negocio/02.1_beneficiario_controlador.md](Especificaciones%20de%20Negocio/02.1_beneficiario_controlador.md)
+#### 02-Participantes
+- [02-Participantes/02_participantes_roles_kyc.md](02-Participantes/02_participantes_roles_kyc.md)
+- [02-Participantes/02.1_beneficiario_controlador.md](02-Participantes/02.1_beneficiario_controlador.md)
 
-#### Patrimonio y valuación
-- [Especificaciones de Negocio/03_patrimonio_bienes_valuacion.md](Especificaciones%20de%20Negocio/03_patrimonio_bienes_valuacion.md)
+#### 03-Patrimonio
+- [03-Patrimonio/03_patrimonio_bienes_valuacion.md](03-Patrimonio/03_patrimonio_bienes_valuacion.md)
 
-#### Cuentas y validaciones
-- [Especificaciones de Negocio/04_cuentas_estructura_validaciones.md](Especificaciones%20de%20Negocio/04_cuentas_estructura_validaciones.md)
+#### 04-Cuentas
+- [04-Cuentas/04_cuentas_estructura_validaciones.md](04-Cuentas/04_cuentas_estructura_validaciones.md)
 
-#### Gobernanza y comité técnico
-- [Especificaciones de Negocio/05_gobernanza_comite_tecnico.md](Especificaciones%20de%20Negocio/05_gobernanza_comite_tecnico.md)
+#### 05-Gobernanza
+- [05-Gobernanza/05_gobernanza_comite_tecnico.md](05-Gobernanza/05_gobernanza_comite_tecnico.md)
 
-#### Autorizaciones y maker-checker
-- [Especificaciones de Negocio/06_instrucciones_autorizacion_maker_checker.md](Especificaciones%20de%20Negocio/06_instrucciones_autorizacion_maker_checker.md)
+#### 06-Autorizaciones
+- [06-Autorizaciones/06_instrucciones_autorizacion_maker_checker.md](06-Autorizaciones/06_instrucciones_autorizacion_maker_checker.md)
 
-#### Contabilidad fiduciaria
-- [Especificaciones de Negocio/07_contabilidad_fiduciaria.md](Especificaciones%20de%20Negocio/07_contabilidad_fiduciaria.md)
+#### 07-Contabilidad
+- [07-Contabilidad/07_contabilidad_fiduciaria.md](07-Contabilidad/07_contabilidad_fiduciaria.md)
 
-#### PLD y monitoreo transaccional
-- [Especificaciones de Negocio/08_pld_monitoreo_transaccional.md](Especificaciones%20de%20Negocio/08_pld_monitoreo_transaccional.md)
+#### 08-PLD
+- [08-PLD/08_pld_monitoreo_transaccional.md](08-PLD/08_pld_monitoreo_transaccional.md)
 
-#### Documentos y repositorio
-- [Especificaciones de Negocio/09_documentos_repositorio.md](Especificaciones%20de%20Negocio/09_documentos_repositorio.md)
+#### 09-Documentos
+- [09-Documentos/09_documentos_repositorio.md](09-Documentos/09_documentos_repositorio.md)
 
-#### Auditoría y trazabilidad
-- [Especificaciones de Negocio/10_auditoria_trazabilidad.md](Especificaciones%20de%20Negocio/10_auditoria_trazabilidad.md)
+#### 10-Auditoria
+- [10-Auditoria/10_auditoria_trazabilidad.md](10-Auditoria/10_auditoria_trazabilidad.md)
 
-#### Reportes regulatorios
-- [Especificaciones de Negocio/11_reportes_regulatorios_siti.md](Especificaciones%20de%20Negocio/11_reportes_regulatorios_siti.md)
+#### 11-Reportes
+- [11-Reportes/11_reportes_regulatorios_siti.md](11-Reportes/11_reportes_regulatorios_siti.md)
 
-#### Honorarios fiduciarios
-- [Especificaciones de Negocio/12_honorarios_fiduciarios.md](Especificaciones%20de%20Negocio/12_honorarios_fiduciarios.md)
+#### 12-Honorarios
+- [12-Honorarios/12_honorarios_fiduciarios.md](12-Honorarios/12_honorarios_fiduciarios.md)
 
-#### Notificaciones y alertas
-- [Especificaciones de Negocio/13_notificaciones_alertas.md](Especificaciones%20de%20Negocio/13_notificaciones_alertas.md)
+#### 13-Notificaciones
+- [13-Notificaciones/13_notificaciones_alertas.md](13-Notificaciones/13_notificaciones_alertas.md)
 
 ## Alcance funcional
 
